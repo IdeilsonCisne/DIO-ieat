@@ -1,24 +1,17 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Config
+* ruby 2.7.2
+* Rails 6.1.3.1
 
-Things you may want to cover:
+### Install devise
+* rails generate devise:install
 
-* Ruby version
+### Install yarn
+* sudo npm install --global yarn
+* rails webpacker:install
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Check installation
+* yarn --version
+* npm --version
+* rails  --version
