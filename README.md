@@ -3,6 +3,8 @@
 ### Config
 * ruby 2.7.2
 * Rails 6.1.3.1
+* Redis 6.0
+* Sedekiq 6.1
 
 ### Install devise
 * rails generate devise:install
@@ -15,3 +17,6 @@
 * yarn --version
 * npm --version
 * rails  --version
+
+### Command build docker
+* docker build -t dio_ieat .
